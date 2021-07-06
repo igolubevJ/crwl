@@ -64,11 +64,10 @@ class SignIn extends Component {
               Submit Form
             </CustomButton>
 
-            <CustomButton isGoogleSignIn onClick={() => signInWithGoogle()}>
+            <CustomButton type="button" isGoogleSignIn onClick={() => signInWithGoogle()}>
               {' '}Sign in With Google{' '}
             </CustomButton>
           </div>
-
         </form>
       </div>
     );
